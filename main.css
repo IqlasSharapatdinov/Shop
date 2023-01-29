@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 180vh;
+}
+
+.container{
+   max-width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header{
+    color: #fff;
+    background-color: rgb(0, 145, 255);
+    padding: 20px 50px;
+}
+
+
+.header__body{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.basket{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.items {
+    margin: 100px 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    height: 500px;
+    width:  250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    
+}
+
+.card p {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.card h4{
+    font-size: 24px;
+    color: black;
+}
+
+.card button{
+    background-color: rgb(0, 94, 255);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    width: 180px;
+    padding: 10px 15px;
+    margin-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+button:hover{
+    background-color: rgb(7, 162, 7);
+    transition: all 0.3s ease;
+}
+
+.card img {
+    width: 150px;
+    padding: 5px 15px;
+    height: 150px;
+    transition: all 0.3s ease;
+}
+
+ img:hover {
+    scale: 1.1;
+    transition: all 0.3s ease;
+}
+
+.item{
+    background-color: rgb(255, 183, 0);
+    width: 250px;
+    height:  450px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    position: relative;
+    top: 90px;
+}
+
+img{
+    height: 120px;
+    width: 135px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    color: rgb(255, 183, 0);
+    transition: all 0.3s ease;
+}
+
+.basket_btn{
+    background-color: rgb(0, 94, 255);
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.baskets{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.likes_items{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.like_btn{
+    background-color: rgb(0, 94, 255);
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    width: 190px;
+    height: 42px;
+    margin-top: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+input{
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.search-btn{
+    background-color: rgb(0, 94, 255);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    width: 85px;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;  
+}

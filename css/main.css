@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.header{
+    color: #fff;
+    background-color: rgb(65, 65, 65);
+    padding: 20px 50px;
+}
+
+.header__body{
+    display: flex;
+    justify-content: space-between  ;
+}
+
+.basket{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.like{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.basket_btn{
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.items {
+    margin: 50px 0px;
+}
+
+.items h3{
+    font-size: 24px;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 10px 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    flex: 1 1 200px;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.card h4{
+    font-size: 24px;
+}
+
+.card button{
+    background-color: orange;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.item img{
+    width: 300px;
+}
+
+.item h2 {
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+.baskets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.likes_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}

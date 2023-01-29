@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "name":"Iphone 12",
+        "description":"Lorem ipsum iphone 12",
+        "img":"iphone 12.png",
+        "isLike":false,
+        "salary": 600000
+    },
+    {
+        "id":2,
+        "name":"Samsung S7",
+        "description":"Lorem ipsum samsung",
+        "img":"samsung s7.png",
+        "isLike":false,
+        "salary": 200000
+    },
+    {
+        "id":3,
+        "name":"Redmi Note 8",
+        "description":"Lorem ipsum redmi note xiaomi",
+        "img":"Redmi Note 8.jpg",
+        "isLike":false,
+        "salary": 120000
+    },
+    {
+        "id":4,
+        "name":"Iphone 8",
+        "description":"Lorem ipsum 8 iphone",
+        "img":"iphone-8.png",
+        "isLike":false,
+        "salary": 100000
+    },
+    {
+        "id":5,
+        "name":"Nokia ",
+        "description":"Best cell phone in this world i have ever seen",
+        "img":"nokia 33103.png",
+        "isLike":false,
+        "salary": 5000
+    }
+]
